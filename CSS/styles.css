@@ -1,4 +1,4 @@
-.top,.top2,.top3,.top4,.top5,.top6,.top7,.top8{
+.top,.top2,.top3,.top4,.top5,.top6,.top7,.top8,.tec{
   opacity: 0.65;
   background-attachment: fixed;
   background-position: center;
@@ -6,26 +6,31 @@
   background-size: contain;
   position: relative;
 }
-.top3,.top4,.top5,.top7,.top8  {
+.top3,.top4,.top5,.top7,.top8 {
   background-size: cover;
 }
 .top5{
   background-position-y: -18.75rem;
 }
 
+.tec{
+  background-image: url("../img/tec.jpeg");
+  height:  43.75rem;
+  width: 100%;
+}
 .top{
   background-image: url("../img/lilian.jpeg");
-  height: 100%;
+  height:  43.75rem;
   width: 100%;
 }
 .top2  {
-  background-image: url("https://media.tenor.com/rSrDAKROANYAAAAC/cuphead-mugman.gif");
-  height: 43.75rem;
+  background-image: url("../img/cuphead-mugman.gif");
+  height: 49rem;
   width: 100%;
 }
 .top3{
   background-image: url("../img/miguel.jpeg");
-  height: 100%;
+  height: 43.75rem;
   width: 100%;
 }
 .top4  {
@@ -54,11 +59,16 @@
   width: 100vw;
 }
 
-.caption,.caption2,.caption3,.caption4,.caption5,.caption6,.caption7,.caption8{
+.caption0,.caption2,.caption3,.caption4,.caption5,.caption6,.caption7,.caption8{
 position: absolute;
 top: 50%;
 width: 100%;
 
+}
+.caption{
+  position: absolute;
+top: 60%;
+width: 100%;
 }
 .border{
   padding: 18px;
@@ -72,13 +82,17 @@ width: 100%;
   letter-spacing: 10px;
   color: #f7f7f7;
 }
-.mid,.mid2,.bot,.mid3{
+.border8{
+  color: black;
+}
+.mid,.mid2,.bot,.mid3,.var{
   padding:50px 80px;
 }
 .mid2,.mid3 {
   padding:60px
 }
-.mid2,.bot{
+
+.mid2,.bot,.var{
   background-color: #282E34;
 }
 .mid3{
