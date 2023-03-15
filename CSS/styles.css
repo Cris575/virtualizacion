@@ -1,4 +1,4 @@
-.top,.top2,.top3,.top4,.top5,.top6,.top7,.top8,.tec{
+.top,.top2,.top3,.top4,.top5,.top6,.top7,.top8{
   opacity: 0.65;
   background-attachment: fixed;
   background-position: center;
@@ -13,11 +13,7 @@
   background-position-y: -18.75rem;
 }
 
-.tec{
-  background-image: url("../img/tec.jpeg");
-  height:  43.75rem;
-  width: 100%;
-}
+
 .top{
   background-image: url("../img/lilian.jpeg");
   height:  43.75rem;
@@ -30,35 +26,42 @@
 }
 .top3{
   background-image: url("../img/miguel.jpeg");
-  height: 43.75rem;
+  height: 50rem;
   width: 100%;
 }
 .top4  {
   background-image: url("../img/war.gif");
   height: 46.875rem;
-  width: 100vw;
+  width: 100%;
 }
 .top5  {
   background-image: url("../img/alondra.jpeg");
   height: 46.875rem;
-  width: 100vw;
+  width: 100%;
 }
 .top6  {
   background-image: url("../img/plantas.gif");
   height: 46.875rem;
-  width: 100vw;
+  width: 100%;
 }
 .top7  {
   background-image: url("../img/moy.jpeg");
   height: 46.875rem;
-  width: 100vw;
+  width: 100%;
 }
 .top8 {
   background-image: url("../img/min.gif");
   height: 46.875rem;
-  width: 100vw;
+  width: 100%;
 }
-
+.absolute{
+  position: absolute;
+  top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+margin: auto;
+}
 .caption0,.caption2,.caption3,.caption4,.caption5,.caption6,.caption7,.caption8{
 position: absolute;
 top: 50%;
